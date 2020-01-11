@@ -1,9 +1,43 @@
 package data;
 
+import static java.lang.Character.isAlphabetic;
+import static java.lang.Character.isDigit;
+
 final public class HealthCardID {
 
     private final String personalID;
-    public HealthCardID(String code) { this. personalID = code; } public String getPersonalID() { return personalID; }
+
+    public HealthCardID(String code) {
+
+        this.personalID = code;
+
+    }
+
+    public String getPersonalID() throws Exception{
+        if(!checkCode(personalID)){
+            throw new Exception("The Health Card ID is not valid");
+        }
+        return personalID;
+    }
+    private boolean checkCode(String code){
+
+        if (code == null)
+            return false;
+
+        char [] codeArray = code.toCharArray();
+        if (code.length() != 14)
+            return false;
+
+        for (int i = 0; i < 4; i++){
+            if (!isAlphabetic(codeArray[i]))
+                return false;
+        }
+        for (int j = 4; j < 14; j++ ){
+            if(!isDigit(codeArray[j]))
+                return false;
+        }
+        return true;
+    }
 
     @Override
     public boolean equals(Object o) {
