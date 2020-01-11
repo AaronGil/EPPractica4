@@ -15,7 +15,7 @@ final public class ProductID {
         return productUPC;
     }
 
-    private Boolean checkCode(){
+    public Boolean checkCode(){
 
         if (productUPC == null)
             return false;

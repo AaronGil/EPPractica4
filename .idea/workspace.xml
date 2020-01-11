@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f26adf82-632d-476e-94c5-5d307bf63e67" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/junit_jupiter_api_5_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/org_junit_jupiter_junit_jupiter_5_4_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/data/HealthCardIDTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/data/PatientContrTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/data/ProductIDTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practica4.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Practica4.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/data/HealthCardID.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/HealthCardID.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/data/PatientContr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/PatientContr.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/data/ProductID.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/ProductID.java" afterDir="false" />
@@ -30,7 +36,12 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -40,6 +51,101 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunManager" selected="JUnit.ProductIDTest.getterProductID">
+    <configuration name="HealthCardIDTest.getterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Practica4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="data.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="data" />
+      <option name="MAIN_CLASS_NAME" value="data.HealthCardIDTest" />
+      <option name="METHOD_NAME" value="getterTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HealthCardIDTest.getterTestCorrect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Practica4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="data.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="data" />
+      <option name="MAIN_CLASS_NAME" value="data.HealthCardIDTest" />
+      <option name="METHOD_NAME" value="getterTestCorrect" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PatientContrTest.getterPatientContrTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Practica4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="data.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="data" />
+      <option name="MAIN_CLASS_NAME" value="data.PatientContrTest" />
+      <option name="METHOD_NAME" value="getterPatientContrTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductIDTest.getterProductID" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Practica4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="data.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="data" />
+      <option name="MAIN_CLASS_NAME" value="data.ProductIDTest" />
+      <option name="METHOD_NAME" value="getterProductID" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductIDTest.getterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Practica4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="data.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="data" />
+      <option name="MAIN_CLASS_NAME" value="data.ProductIDTest" />
+      <option name="METHOD_NAME" value="getterTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ProductIDTest.getterProductID" />
+        <item itemvalue="JUnit.PatientContrTest.getterPatientContrTest" />
+        <item itemvalue="JUnit.HealthCardIDTest.getterTest" />
+        <item itemvalue="JUnit.HealthCardIDTest.getterTestCorrect" />
+        <item itemvalue="JUnit.ProductIDTest.getterTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -64,7 +170,7 @@
       <option name="presentableId" value="Default" />
       <updated>1578577548556</updated>
       <workItem from="1578577554060" duration="1678000" />
-      <workItem from="1578580309926" duration="5006000" />
+      <workItem from="1578580309926" duration="14792000" />
     </task>
     <servers />
   </component>
@@ -72,14 +178,50 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="558" y="137" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog" timestamp="1578743309380">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="558" y="137" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog/0.0.1440.900@0.0.1440.900" timestamp="1578743309380" />
+    <state x="458" y="197" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog" timestamp="1578743231052">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="458" y="197" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog/0.0.1440.900@0.0.1440.900" timestamp="1578743231052" />
     <state x="314" y="52" key="CommitChangelistDialog2" timestamp="1578736708250">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="314" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1578736708250" />
+    <state x="482" y="159" key="DetectedRootsChooserDialog" timestamp="1578743277931">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="482" y="159" key="DetectedRootsChooserDialog/0.0.1440.900@0.0.1440.900" timestamp="1578743277931" />
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1578747283867">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1578747283867" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1578747283864">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1578747283864" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1578747283863">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1578747283863" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1578747283865">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1578747283865" />
+    <state x="208" y="23" width="1024" height="825" key="SettingsEditor" timestamp="1578743374156">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="208" y="23" width="1024" height="825" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1578743374156" />
     <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1578736721679">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1578736721679" />
+    <state x="432" y="351" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1578743369308">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="432" y="351" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1440.900@0.0.1440.900" timestamp="1578743369308" />
     <state x="114" y="72" key="new project wizard" timestamp="1578577663834">
       <screen x="0" y="0" width="1440" height="900" />
     </state>

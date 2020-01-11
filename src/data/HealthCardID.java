@@ -16,7 +16,7 @@ final public class HealthCardID {
         }
         return personalID;
     }
-    private Boolean checkCode(){
+    public Boolean checkCode(){
 
         if (personalID == null)
             return false;

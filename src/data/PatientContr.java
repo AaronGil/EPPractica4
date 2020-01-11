@@ -9,7 +9,7 @@ final public class PatientContr {
         this.contribution = contrib;
     }
 
-    public BigDecimal getContribution() throws Exception{
+    public BigDecimal getContr() throws Exception{
         if(contribution.compareTo(BigDecimal.valueOf(0.0)) < 0 || contribution.compareTo(BigDecimal.valueOf(100.00)) > 0)
             throw new Exception("Error. Wrong contribution, the value must be between 0.00 and 100.00");
 
