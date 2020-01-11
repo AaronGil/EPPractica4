@@ -4,28 +4,25 @@ import static java.lang.Character.isAlphabetic;
 import static java.lang.Character.isDigit;
 
 final public class HealthCardID {
-
     private final String personalID;
 
     public HealthCardID(String code) {
-
         this.personalID = code;
-
     }
 
     public String getPersonalID() throws Exception{
-        if(!checkCode(personalID)){
-            throw new Exception("The Health Card ID is not valid");
+        if(!checkCode()){
+            throw new Exception("The Health Card ID is not valid. \n");
         }
         return personalID;
     }
-    private boolean checkCode(String code){
+    private Boolean checkCode(){
 
-        if (code == null)
+        if (personalID == null)
             return false;
 
-        char [] codeArray = code.toCharArray();
-        if (code.length() != 14)
+        char [] codeArray = personalID.toCharArray();
+        if (personalID.length() != 14)
             return false;
 
         for (int i = 0; i < 4; i++){
@@ -42,7 +39,9 @@ final public class HealthCardID {
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false; HealthCardID hcardID = (HealthCardID) o;
+        if (o == null || getClass() != o.getClass())
+            return false;
+        HealthCardID hcardID = (HealthCardID) o;
         return personalID.equals(hcardID.personalID);
     }
 
