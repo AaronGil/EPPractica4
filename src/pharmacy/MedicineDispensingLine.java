@@ -3,21 +3,24 @@ package pharmacy;
 import data.ProductID;
 
 public class MedicineDispensingLine {
-    private boolean acquired;
+    private boolean adquired;
     private ProductID medicine;
 
     public MedicineDispensingLine (ProductID medicine){
         this.medicine = medicine;
-        this.acquired = false;
+        this.adquired = false;
     }
 
-    public void setAcquired(ProductID medicine) {
-        this.acquired = true;
+    public void setAdquired() {
+        this.adquired = true;
     }
     public ProductID getMedicineId(){
         return this.medicine;
     }
-    public boolean isAcquired(){
-        return this.acquired;
+    public boolean isAdquired(){
+        return this.adquired;
+    }
+    public boolean getAdquired(){
+        return adquired;
     }
 }

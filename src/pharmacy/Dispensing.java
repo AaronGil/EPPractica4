@@ -34,7 +34,7 @@ public class Dispensing {
     public void setProductAsDispensed(ProductID prodID){
         for (MedicineDispensingLine medicineLine : Listofmedicine){
             if(medicineLine.getMedicineId().equals(prodID)){
-                medicineLine.setAcquired(prodID);
+                medicineLine.setAdquired();
             }
         }
     }
