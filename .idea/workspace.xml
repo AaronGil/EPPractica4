@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f26adf82-632d-476e-94c5-5d307bf63e67" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pharmacy/Dispensing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pharmacy/Dispensing.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pharmacy/DispensingTerminal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pharmacy/DispensingTerminal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pharmacy/MedicineDispensingLine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pharmacy/MedicineDispensingLine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/pharmacy/DispensingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/pharmacy/DispensingTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,101 +60,97 @@
       <recent name="services.Exceptions" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ProductIDTest.getterProductID">
-    <configuration name="HealthCardIDTest.getterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.DispensingTest">
+    <configuration name="DispensingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Practica4" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="data.*" />
+          <option name="PATTERN" value="pharmacy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="data" />
-      <option name="MAIN_CLASS_NAME" value="data.HealthCardIDTest" />
-      <option name="METHOD_NAME" value="getterTest" />
+      <option name="PACKAGE_NAME" value="pharmacy" />
+      <option name="MAIN_CLASS_NAME" value="pharmacy.DispensingTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DispensingTest.dispensingEnabledTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Practica4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pharmacy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pharmacy" />
+      <option name="MAIN_CLASS_NAME" value="pharmacy.DispensingTest" />
+      <option name="METHOD_NAME" value="dispensingEnabledTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HealthCardIDTest.getterTestCorrect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MedicineDispensingLineTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Practica4" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="data.*" />
+          <option name="PATTERN" value="pharmacy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="data" />
-      <option name="MAIN_CLASS_NAME" value="data.HealthCardIDTest" />
-      <option name="METHOD_NAME" value="getterTestCorrect" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="pharmacy" />
+      <option name="MAIN_CLASS_NAME" value="pharmacy.MedicineDispensingLineTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PatientContrTest.getterPatientContrTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ProductSaleLineTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Practica4" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="data.*" />
+          <option name="PATTERN" value="pharmacy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="data" />
-      <option name="MAIN_CLASS_NAME" value="data.PatientContrTest" />
-      <option name="METHOD_NAME" value="getterPatientContrTest" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="pharmacy" />
+      <option name="MAIN_CLASS_NAME" value="pharmacy.ProductSaleLineTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProductIDTest.getterProductID" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SaleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Practica4" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="data.*" />
+          <option name="PATTERN" value="pharmacy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="data" />
-      <option name="MAIN_CLASS_NAME" value="data.ProductIDTest" />
-      <option name="METHOD_NAME" value="getterProductID" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ProductIDTest.getterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Practica4" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="data.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="data" />
-      <option name="MAIN_CLASS_NAME" value="data.ProductIDTest" />
-      <option name="METHOD_NAME" value="getterTest" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="pharmacy" />
+      <option name="MAIN_CLASS_NAME" value="pharmacy.SaleTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.HealthCardIDTest.getterTest" />
-      <item itemvalue="JUnit.HealthCardIDTest.getterTestCorrect" />
-      <item itemvalue="JUnit.PatientContrTest.getterPatientContrTest" />
-      <item itemvalue="JUnit.ProductIDTest.getterProductID" />
-      <item itemvalue="JUnit.ProductIDTest.getterTest" />
+      <item itemvalue="JUnit.DispensingTest.dispensingEnabledTest" />
+      <item itemvalue="JUnit.MedicineDispensingLineTest" />
+      <item itemvalue="JUnit.ProductSaleLineTest" />
+      <item itemvalue="JUnit.SaleTest" />
+      <item itemvalue="JUnit.DispensingTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ProductIDTest.getterProductID" />
-        <item itemvalue="JUnit.PatientContrTest.getterPatientContrTest" />
-        <item itemvalue="JUnit.HealthCardIDTest.getterTest" />
-        <item itemvalue="JUnit.HealthCardIDTest.getterTestCorrect" />
-        <item itemvalue="JUnit.ProductIDTest.getterTest" />
+        <item itemvalue="JUnit.DispensingTest" />
+        <item itemvalue="JUnit.DispensingTest.dispensingEnabledTest" />
+        <item itemvalue="JUnit.SaleTest" />
+        <item itemvalue="JUnit.ProductSaleLineTest" />
+        <item itemvalue="JUnit.MedicineDispensingLineTest" />
       </list>
     </recent_temporary>
   </component>
@@ -183,7 +178,7 @@
       <updated>1578577548556</updated>
       <workItem from="1578577554060" duration="1678000" />
       <workItem from="1578580309926" duration="14792000" />
-      <workItem from="1578826364878" duration="4303000" />
+      <workItem from="1578826364878" duration="8041000" />
     </task>
     <servers />
   </component>
@@ -207,22 +202,22 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="482" y="159" key="DetectedRootsChooserDialog/0.0.1440.900@0.0.1440.900" timestamp="1578743277931" />
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1578747283867">
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1578869525159">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1578747283867" />
-    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1578747283864">
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1578869525159" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1578869525157">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1578747283864" />
-    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1578747283863">
+    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1578869525157" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1578869525156">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1578747283863" />
-    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1578747283865">
+    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1578869525156" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1578869525158">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1578747283865" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1578869525158" />
     <state x="208" y="23" width="1024" height="825" key="SettingsEditor" timestamp="1578743374156">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -243,5 +238,9 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="114" y="72" key="new project wizard/0.0.1440.900@0.0.1440.900" timestamp="1578577663834" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1578868612639">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1578868612639" />
   </component>
 </project>
