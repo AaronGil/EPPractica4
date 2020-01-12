@@ -3,7 +3,7 @@ Practica 4 d'Enginyeria del Programari. Disseny i Proves Unitaries
 
 Data d'entrega: 12/01/2020
 
-### Tasks ###
+# Tasks 
   * Data
     * - [X] HealthCardID
     * - [X]  PatientContr
@@ -17,7 +17,7 @@ Data d'entrega: 12/01/2020
     * - [X] Sale
   * Services
     * - [X] HealthCardReader
-    * - [X] NatuibakHealthService
+    * - [X] NationalHealthService
     
 # Tests
 
