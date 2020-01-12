@@ -11,15 +11,14 @@ public class MedicineDispensingLine {
         this.adquired = false;
     }
 
-    public void setAdquired() {
-        this.adquired = true;
-    }
-    public ProductID getMedicineId(){
-        return this.medicine;
-    }
+    public ProductID getMedicineId(){ return this.medicine; }
+
+    public void setAdquired() { this.adquired = true; }
+
     public boolean isAdquired(){
         return this.adquired;
     }
+
     public boolean getAdquired(){
         return adquired;
     }

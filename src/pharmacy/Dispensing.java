@@ -14,10 +14,13 @@ public class Dispensing {
     private byte nOrder; // n. of order for this dispensing inside the treatment
     private Date initDate, finalDate; //The period
     private boolean isCompleted;
-    private List<MedicineDispensingLine> Listofmedicine;//The set of medicines to dispense and its control, among others
+    private List<MedicineDispensingLine> listOfmedicines;//The set of medicines to dispense and its control, among others
 
-    public Dispensing(){
-        Listofmedicine = new ArrayList<>();
+    public Dispensing(byte nOrder, Date initDate, Date finalDate){
+        this.nOrder = nOrder;
+        this.initDate = initDate;
+        this.finalDate = finalDate;
+        listOfmedicines = new ArrayList<>();
         isCompleted = false;
     } //Make some initialization
 
@@ -26,25 +29,17 @@ public class Dispensing {
         if(actualDate.after(this.initDate)) {
             return true;
         }else{
-            throw new DispensingNotAvailableException("Disabled");
+            throw new DispensingNotAvailableException("Dispensing not available. Wrong dispensing date.");
         }
     }
 
 
     public void setProductAsDispensed(ProductID prodID){
-        for (MedicineDispensingLine medicineLine : Listofmedicine){
+        for (MedicineDispensingLine medicineLine : listOfmedicines){
             if(medicineLine.getMedicineId().equals(prodID)){
                 medicineLine.setAdquired();
             }
         }
-    }
-    public MedicineDispensingLine getLine(ProductID productID){
-        for(MedicineDispensingLine line : Listofmedicine){
-            if(line.getMedicineId().equals(productID)){
-                return line;
-            }
-        }
-        return null;
     }
 
     public void setCompleted(){
@@ -55,7 +50,18 @@ public class Dispensing {
         return isCompleted;
     }
 
+    public void addLine(MedicineDispensingLine line){
+        this.listOfmedicines.add(line);
+    }
 
+    public MedicineDispensingLine getLine(ProductID productID){
+        for(MedicineDispensingLine line : listOfmedicines){
+            if(line.getMedicineId().equals(productID)){
+                return line;
+            }
+        }
+        return null;
+    }
 
     public void setnOrder(byte x){
         this.nOrder=x;
@@ -66,13 +72,8 @@ public class Dispensing {
     }
 
     public List<MedicineDispensingLine> getMedicineDispensingList(){
-        return this.Listofmedicine;
+        return this.listOfmedicines;
     }
-
-    public void addLine(MedicineDispensingLine line){
-        this.Listofmedicine.add(line);
-    }
-
 
     public void setFinalDate(Date date) {
         this.finalDate = date;

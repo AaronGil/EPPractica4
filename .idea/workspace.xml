@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f26adf82-632d-476e-94c5-5d307bf63e67" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/services/Exceptions/HealthCardException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/services/Exceptions/NotValidePrescriptionException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/services/HealthCardReader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/NationalHealthService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/NationalHealthService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pharmacy/Dispensing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pharmacy/Dispensing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pharmacy/DispensingTerminal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pharmacy/DispensingTerminal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pharmacy/MedicineDispensingLine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pharmacy/MedicineDispensingLine.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -184,7 +183,7 @@
       <updated>1578577548556</updated>
       <workItem from="1578577554060" duration="1678000" />
       <workItem from="1578580309926" duration="14792000" />
-      <workItem from="1578826364878" duration="655000" />
+      <workItem from="1578826364878" duration="4303000" />
     </task>
     <servers />
   </component>

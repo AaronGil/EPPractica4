@@ -56,8 +56,6 @@ public class Sale { //A class that represents the sale of medicines
         amount=amount.multiply(IVA);
     }
 
-
-
     public void calculateFinalAmount() throws SaleClosedException{
         if(isClosed){
             throw new SaleClosedException("Closed");
@@ -73,12 +71,15 @@ public class Sale { //A class that represents the sale of medicines
     public void setClosed() {
         isClosed = true;
     }
+
     public boolean isClosed() {
         return isClosed;
     }
+
     public int getSaleCode() {
         return this.saleCode;
     }
+
     public List<ProductSaleLine> getProductsList(){
         return this.productsList;
     }
