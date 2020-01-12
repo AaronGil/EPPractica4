@@ -3,33 +3,32 @@ Practica 4 d'Enginyeria del Programari. Disseny i Proves Unitaries
 
 Data d'entrega: 12/01/2020
 
-# Tasks
-
-  · Data
-    - HealthCardID
-    - PatientContr
-    - ProductID
-  · Pharmacy
-    - Dispensing
-    - DispensingTerminal
-    - MedicineDispensingTerminal
-    - ProductSaleLine
-    - ProductSpecification
-    - Sale
-  · Services
-    - HealthCardReader
-    - NatuibakHealthService
+### Tasks ###
+  * Data
+    * - [X] HealthCardID
+    * - [X]  PatientContr
+    * - [X] ProductID
+  * Pharmacy
+    * - [X] Dispensing
+    * - [X] DispensingTerminal
+    * - [X] MedicineDispensingTerminal
+    * - [X] ProductSaleLine
+    * - [X] ProductSpecification
+    * - [X] Sale
+  * Services
+    * - [X] HealthCardReader
+    * - [X] NatuibakHealthService
     
 # Tests
 
-  · Data
-    - HealthCardIDTest
-    - PatientContrTest
-    - ProductIDTest
-  · Pharmacy
-    - DispensingTest
-    - DispensingTerminalTest
-    - MedicineDispensingTerminalTest
-    - ProductSaleLineTest
-    - ProductSpecificationTest
-    - SaleTest
+  * Data
+    * - [X] HealthCardIDTest
+    * - [X] PatientContrTest
+    * - [X] ProductIDTest
+  * Pharmacy
+    * - [X] DispensingTest
+    * - [X] DispensingTerminalTest
+    * - [X] MedicineDispensingTerminalTest
+    * - [X] ProductSaleLineTest
+    * - [X] ProductSpecificationTest
+    * - [X] SaleTest
